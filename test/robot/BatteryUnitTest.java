@@ -1,9 +1,22 @@
 package robot;
 
-/**
- * Created by jrigault on 11/12/13.
- */
+
+import org.junit.Assert;
+import org.junit.Test;
+
+
 public class BatteryUnitTest {
+
+
+    @Test
+    public void testCharge(){
+        Battery battery = new Battery();
+        battery.charge();
+    }
+
+
+
+
 
 
 
