@@ -63,14 +63,17 @@
     <favorites_list name="Reymondet-Rigault" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
+    <splitter split-orientation="vertical" split-proportion="0.6307054">
       <split-first>
         <leaf>
           <file leaf-file-name="Battery.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/robot/Battery.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="-2.0994475" vertical-offset="431" max-vertical-offset="918">
-                  <folding />
+                <state line="34" column="0" selection-start="723" selection-end="723" vertical-scroll-proportion="-0.12274368" vertical-offset="561" max-vertical-offset="1003">
+                  <folding>
+                    <element signature="e#578#699#0" expanded="true" />
+                    <element signature="e#688#689#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -82,7 +85,7 @@
           <file leaf-file-name="BatteryUnitTest.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/robot/BatteryUnitTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="5" selection-start="212" selection-end="212" vertical-scroll-proportion="0.44973546" vertical-offset="153" max-vertical-offset="578">
+                <state line="34" column="29" selection-start="630" selection-end="630" vertical-scroll-proportion="0.53103447" vertical-offset="501" max-vertical-offset="884">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -113,9 +116,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="454" />
-    <option name="width" value="912" />
-    <option name="height" value="768" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -145,6 +149,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -216,7 +221,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,6 +243,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -251,7 +256,119 @@
       <recent name="C:\wamp\www\PHP\Reymondet-Rigault\test" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BatteryUnitTest.testTimeToSufficientCharge">
+    <configuration default="false" name="BatteryUnitTest.testCharge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="robot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Reymondet-Rigault" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="robot" />
+      <option name="MAIN_CLASS_NAME" value="robot.BatteryUnitTest" />
+      <option name="METHOD_NAME" value="testCharge" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BatteryUnitTest.testChargeFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="robot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Reymondet-Rigault" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="robot" />
+      <option name="MAIN_CLASS_NAME" value="robot.BatteryUnitTest" />
+      <option name="METHOD_NAME" value="testChargeFunction" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BatteryUnitTest.testGetChargeLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="robot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Reymondet-Rigault" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="robot" />
+      <option name="MAIN_CLASS_NAME" value="robot.BatteryUnitTest" />
+      <option name="METHOD_NAME" value="testGetChargeLevel" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BatteryUnitTest.testTimeToSufficientCharge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="robot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Reymondet-Rigault" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="robot" />
+      <option name="MAIN_CLASS_NAME" value="robot.BatteryUnitTest" />
+      <option name="METHOD_NAME" value="testTimeToSufficientCharge" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -463,7 +580,20 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="0" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BatteryUnitTest.testCharge" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BatteryUnitTest.testChargeFunction" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BatteryUnitTest.testGetChargeLevel" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BatteryUnitTest.testTimeToSufficientCharge" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BatteryUnitTest.testTimeToSufficientCharge" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BatteryUnitTest.testGetChargeLevel" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BatteryUnitTest.testChargeFunction" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BatteryUnitTest.testCharge" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -494,14 +624,15 @@
       <updated>1386750468301</updated>
       <workItem from="1386750485838" duration="178000" />
       <workItem from="1386750712516" duration="3988000" />
+      <workItem from="1386854015462" duration="2552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4166000" />
+    <option name="totallyTimeSpent" value="6718000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="454" y="0" width="912" height="768" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -517,18 +648,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287879" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840237" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3705357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3704246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28698224" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -555,14 +686,36 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/robot/Battery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="-2.0994475" vertical-offset="431" max-vertical-offset="918">
-          <folding />
+        <state line="6" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1088">
+          <folding>
+            <element signature="e#578#699#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/robot/BatteryUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="212" selection-end="212" vertical-scroll-proportion="0.44973546" vertical-offset="153" max-vertical-offset="578">
+        <state line="14" column="5" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="578">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/robot/Battery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="723" selection-end="723" vertical-scroll-proportion="-0.12274368" vertical-offset="561" max-vertical-offset="1003">
+          <folding>
+            <element signature="e#578#699#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/robot/BatteryUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="29" selection-start="630" selection-end="630" vertical-scroll-proportion="0.53103447" vertical-offset="501" max-vertical-offset="884">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
