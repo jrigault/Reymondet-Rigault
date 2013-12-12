@@ -11,7 +11,7 @@ import java.util.TimerTask;
 public class BatteryUnitTest {
 
 
-    // méthode chargeFunction en privée
+    // méthode chargeFunction en privée sera testé dans timeToSufficientEnergy
 
     @Test
     public void testCharge(){
@@ -23,6 +23,7 @@ public class BatteryUnitTest {
     @Test
     public void testSetUp(){
         // a faire
+        bug
     }
 
     @Test
@@ -34,10 +35,15 @@ public class BatteryUnitTest {
     @Test
     public void testTimeToSufficientCharge(){
         Battery battery=new Battery();
-        Assert.assertEquals(1000,battery.timeToSufficientCharge(110),0);
+        Assert.assertEquals(1000,battery.timeToSufficientCharge(110),0); // test chargeFunction en même temps
     }
 
-
+    @Test
+    public void testCanDeliver(){
+        Battery battery=new Battery();
+        Assert.assertTrue(battery.canDeliver(100));
+        Assert.assertFalse(battery.canDeliver(110));
+    }
 
 
 
