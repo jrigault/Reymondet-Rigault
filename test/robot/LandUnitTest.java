@@ -6,7 +6,7 @@ import org.junit.Test;
 public class LandUnitTest {
 
     @Test
-    public void (){
+    public void TestCountLand(){
         Land land=new Land(2);
         System.out.print(land.CountLand());
     }
