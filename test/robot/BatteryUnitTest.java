@@ -20,10 +20,21 @@ public class BatteryUnitTest {
         Assert.assertEquals(110,battery.getChargeLevel(),0);
     }
 
+    // test la méthode use et setUp en même temps
     @Test
-    public void testSetUp(){
-        // a faire
-        bug
+    public void testSetUp() throws InsufficientChargeException {
+        Battery battery = new Battery();
+        Assert.assertEquals(100,battery.getChargeLevel(),0);
+        battery.use(50);
+        Assert.assertEquals(50, battery.getChargeLevel(), 0);
+        battery.setUp();
+        Assert.assertEquals(50,battery.getChargeLevel(),0); // vérifie que la battery s'incrémente que à partir d'un certain temps
+        Timer timer = new Timer();
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {}}, 0, 1001);
+        Assert.assertEquals(60, battery.getChargeLevel(), 0); // marche pas tout le temps je sais pas pourquoi ? peut-être un problème avec le temps qui est pas parfait ?
+        // marche que pour une charge ? faut-il rappeler setUp a chaque fois?
     }
 
     @Test

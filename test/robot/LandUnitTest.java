@@ -7,8 +7,8 @@ public class LandUnitTest {
 
     @Test
     public void TestCountLand(){
-        Land land=new Land(2);
-        System.out.print(land.CountLand());
+       // Land land=new Land(2);
+        //System.out.print(land.CountLand());
     }
 
 }

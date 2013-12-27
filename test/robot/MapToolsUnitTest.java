@@ -5,9 +5,6 @@ import org.junit.Test;
 
 public class MapToolsUnitTest {
 
-    @Test
-    public void (){
-
-    }
+    // testé en même temps que la classe robot
 
 }
