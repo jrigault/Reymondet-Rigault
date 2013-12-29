@@ -8,9 +8,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="test" level="project" />
     <orderEntry type="library" name="Reymondet-Rigault" level="project" />
+<<<<<<< HEAD
     <orderEntry type="library" name="mockito" level="project" />
+=======
+    <orderEntry type="library" name="test" level="project" />
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
   </component>
 </module>
 

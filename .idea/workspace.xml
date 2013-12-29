@@ -63,6 +63,7 @@
     <favorites_list name="Reymondet-Rigault" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file leaf-file-name="LandSensor.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/robot/LandSensor.java">
@@ -150,6 +151,106 @@
         </entry>
       </file>
     </leaf>
+=======
+    <splitter split-orientation="horizontal" split-proportion="0.51092046">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="Robot.java" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/robot/Robot.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="66" column="32" selection-start="2412" selection-end="2412" vertical-scroll-proportion="0.44805196" vertical-offset="846" max-vertical-offset="1768">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RoadBookCalculator.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/robot/RoadBookCalculator.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="21" column="9" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="731">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#370#381#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Land.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/robot/Land.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="9" column="23" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LandSensor.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/robot/LandSensor.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="15" column="5" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LandSensorDefaillance.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/robot/LandSensorDefaillance.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="2" column="13" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="InaccessibleCoordinate.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/robot/InaccessibleCoordinate.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="15" column="1" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="374">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="RobotUnitTest.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/robot/RobotUnitTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="80" column="27" selection-start="3809" selection-end="3809" vertical-scroll-proportion="0.0" vertical-offset="1012" max-vertical-offset="1649">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LandUnitTest.java" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/robot/LandUnitTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="30" column="6" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.72056514" vertical-offset="0" max-vertical-offset="637">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LandSensorUnitTest.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/robot/LandSensorUnitTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="14" column="9" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -167,28 +268,47 @@
         <option value="$PROJECT_DIR$/test/robot/BatteryUnitTestTest.groovy" />
         <option value="$PROJECT_DIR$/test/robot/CoordinatesUnitTest.java" />
         <option value="$PROJECT_DIR$/src/robot/Land.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/test/robot/RoadBookUnitTest.java" />
         <option value="$PROJECT_DIR$/test/robot/RoadBookCalculatorUnitTest.java" />
         <option value="$PROJECT_DIR$/src/robot/MapTools.java" />
         <option value="$PROJECT_DIR$/src/robot/Robot.java" />
+=======
+        <option value="$PROJECT_DIR$/test/robot/LandSensorUnitTest.java" />
+        <option value="$PROJECT_DIR$/test/robot/RoadBookUnitTest.java" />
+        <option value="$PROJECT_DIR$/test/robot/RoadBookCalculatorUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/robot/MapTools.java" />
+        <option value="$PROJECT_DIR$/src/robot/RoadBookCalculator.java" />
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
         <option value="$PROJECT_DIR$/test/robot/MapToolsUnitTest.java" />
-        <option value="$PROJECT_DIR$/test/robot/BatteryUnitTest.java" />
         <option value="$PROJECT_DIR$/test/robot/RobotUnitTest.java" />
         <option value="$PROJECT_DIR$/test/robot/InsufficientChargeExceptionUnitTest.java" />
         <option value="$PROJECT_DIR$/test/robot/UndefinedRoadbookExceptionUnitTest.java" />
         <option value="$PROJECT_DIR$/test/robot/UnlandedRobotExceptionUnitTest.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/robot/RoadBookCalculator.java" />
         <option value="$PROJECT_DIR$/test/robot/LandUnitTest.java" />
         <option value="$PROJECT_DIR$/src/robot/LandSensor.java" />
         <option value="$PROJECT_DIR$/test/robot/LandSensorUnitTest.java" />
+=======
+        <option value="$PROJECT_DIR$/test/robot/BatteryUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/robot/Robot.java" />
+        <option value="$PROJECT_DIR$/test/robot/LandUnitTest.java" />
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
+<<<<<<< HEAD
     <option name="y" value="32" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+=======
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -218,7 +338,10 @@
       <sortByType />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -290,6 +413,10 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,6 +429,7 @@
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
+<<<<<<< HEAD
     <property name="FullScreen" value="false" />
     <property name="options.lastSelected" value="settings.github" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -311,6 +439,8 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+=======
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -329,8 +459,13 @@
       <recent name="C:\wamp\www\PHP\Reymondet-Rigault\test" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.LandSensorUnitTest.testGetPointToPointEnergyCoefficient">
     <configuration default="false" name="UndefinedRoadbookExceptionUnitTest.testLetsGo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="JUnit.BatteryUnitTest.testGetChargeLevel">
+    <configuration default="false" name="RobotUnitTest.testLetsGo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="robot.*" />
@@ -358,7 +493,11 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="UnlandedRobotExceptionUnitTest.testComputeRoadTo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration default="false" name="InsufficientChargeExceptionUnitTest.testInsufficientChargeException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="robot.*" />
@@ -369,8 +508,13 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="robot" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="robot.UnlandedRobotExceptionUnitTest" />
       <option name="METHOD_NAME" value="testComputeRoadTo" />
+=======
+      <option name="MAIN_CLASS_NAME" value="robot.InsufficientChargeExceptionUnitTest" />
+      <option name="METHOD_NAME" value="testInsufficientChargeException" />
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
@@ -386,7 +530,11 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="BatteryUnitTest.testSetUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration default="false" name="UndefinedRoadbookExceptionUnitTest.testLetsGo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="robot.*" />
@@ -397,8 +545,13 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="robot" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="robot.BatteryUnitTest" />
       <option name="METHOD_NAME" value="testSetUp" />
+=======
+      <option name="MAIN_CLASS_NAME" value="robot.UndefinedRoadbookExceptionUnitTest" />
+      <option name="METHOD_NAME" value="testLetsGo" />
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
@@ -414,7 +567,11 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="LandUnitTest.TestGetLandByOrdinal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration default="false" name="UnlandedRobotExceptionUnitTest.testComputeRoadTo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="robot.*" />
@@ -425,8 +582,13 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="robot" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="robot.LandUnitTest" />
       <option name="METHOD_NAME" value="TestGetLandByOrdinal" />
+=======
+      <option name="MAIN_CLASS_NAME" value="robot.UnlandedRobotExceptionUnitTest" />
+      <option name="METHOD_NAME" value="testComputeRoadTo" />
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
@@ -442,7 +604,11 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="LandSensorUnitTest.testGetPointToPointEnergyCoefficient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration default="false" name="BatteryUnitTest.testGetChargeLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="robot.*" />
@@ -453,8 +619,13 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="robot" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="robot.LandSensorUnitTest" />
       <option name="METHOD_NAME" value="testGetPointToPointEnergyCoefficient" />
+=======
+      <option name="MAIN_CLASS_NAME" value="robot.BatteryUnitTest" />
+      <option name="METHOD_NAME" value="testGetChargeLevel" />
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
@@ -711,6 +882,7 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.RobotUnitTest.testComputeRoadTo" />
+<<<<<<< HEAD
       <item index="1" class="java.lang.String" itemvalue="JUnit.UndefinedRoadbookExceptionUnitTest.testLetsGo" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.UnlandedRobotExceptionUnitTest.testComputeRoadTo" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.BatteryUnitTest.testSetUp" />
@@ -724,6 +896,21 @@
         <item index="2" class="java.lang.String" itemvalue="JUnit.BatteryUnitTest.testSetUp" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.UnlandedRobotExceptionUnitTest.testComputeRoadTo" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.UndefinedRoadbookExceptionUnitTest.testLetsGo" />
+=======
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RobotUnitTest.testLetsGo" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.InsufficientChargeExceptionUnitTest.testInsufficientChargeException" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UndefinedRoadbookExceptionUnitTest.testLetsGo" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UnlandedRobotExceptionUnitTest.testComputeRoadTo" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.BatteryUnitTest.testGetChargeLevel" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BatteryUnitTest.testGetChargeLevel" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UnlandedRobotExceptionUnitTest.testComputeRoadTo" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UndefinedRoadbookExceptionUnitTest.testLetsGo" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.InsufficientChargeExceptionUnitTest.testInsufficientChargeException" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RobotUnitTest.testLetsGo" />
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -759,17 +946,28 @@
       <workItem from="1386854015462" duration="5545000" />
       <workItem from="1387181520838" duration="3854000" />
       <workItem from="1388170517999" duration="15280000" />
+<<<<<<< HEAD
       <workItem from="1388240430006" duration="9484000" />
       <workItem from="1388312763786" duration="6857000" />
       <workItem from="1388349843722" duration="8784000" />
+=======
+      <workItem from="1388343751997" duration="2682000" />
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="53970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="31527000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -785,18 +983,23 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32805908" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32738096" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26354167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2721519" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.06149341" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26923078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -888,6 +1091,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/robot/RoadBookCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="4" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="731">
           <folding>
             <element signature="imports" expanded="true" />
@@ -899,11 +1103,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="714">
           <folding />
+=======
+        <state line="6" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1088">
+          <folding>
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+          </folding>
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/robot/Coordinates.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="5" column="18" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="442">
           <folding />
         </state>
@@ -934,6 +1146,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="75" column="58" selection-start="2725" selection-end="2725" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="1802">
           <folding />
+=======
+        <state line="14" column="5" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="578">
+          <folding>
+            <element signature="class#940:1009" expanded="false" />
+          </folding>
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
         </state>
       </provider>
     </entry>
@@ -960,6 +1178,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/robot/MapTools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="73" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="765">
@@ -975,6 +1194,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/robot/RobotUnitTest.java">
+=======
+    <entry file="file://$PROJECT_DIR$/test/robot/CoordinatesUnitTest.java">
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="0" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.0" vertical-offset="424" max-vertical-offset="1649">
           <folding />
@@ -1047,6 +1269,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/robot/UndefinedRoadbookException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="29" selection-end="29" vertical-scroll-proportion="0.05120482" vertical-offset="0" max-vertical-offset="664" />
@@ -1055,12 +1278,25 @@
     <entry file="file://$PROJECT_DIR$/test/robot/UnlandedRobotExceptionUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="1" selection-start="455" selection-end="455" vertical-scroll-proportion="0.8173077" vertical-offset="17" max-vertical-offset="391">
+=======
+    <entry file="file://$PROJECT_DIR$/src/robot/RoadBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="80" selection-end="80" vertical-scroll-proportion="0.10240964" vertical-offset="0" max-vertical-offset="664">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/robot/UndefinedRoadbookExceptionUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="21" selection-start="194" selection-end="194" vertical-scroll-proportion="0.2724359" vertical-offset="68" max-vertical-offset="408">
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/robot/UnlandedRobotException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="35" selection-start="30" selection-end="52" vertical-scroll-proportion="0.07680723" vertical-offset="0" max-vertical-offset="664" />
@@ -1088,17 +1324,29 @@
     <entry file="file://$PROJECT_DIR$/src/robot/InaccessibleCoordinate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="1" selection-start="368" selection-end="368" vertical-scroll-proportion="0.28301886" vertical-offset="0" max-vertical-offset="901">
+=======
+    <entry file="file://$PROJECT_DIR$/src/robot/UndefinedRoadbookException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="29" selection-end="29" vertical-scroll-proportion="0.05120482" vertical-offset="0" max-vertical-offset="664">
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/test/robot/MapToolsUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="46" selection-start="144" selection-end="144" vertical-scroll-proportion="0.11320755" vertical-offset="0" max-vertical-offset="901">
+=======
+    <entry file="file://$PROJECT_DIR$/src/robot/TerrainNonRepertorieException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="30" selection-end="30" vertical-scroll-proportion="0.07680723" vertical-offset="0" max-vertical-offset="664">
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/test/robot/BatteryUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="21" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1105">
@@ -1123,49 +1371,127 @@
     <entry file="file://$PROJECT_DIR$/src/robot/MapTools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="73" selection-start="498" selection-end="498" vertical-scroll-proportion="0.22125813" vertical-offset="0" max-vertical-offset="922">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/robot/TerrainNonRepertorieException.java">
+=======
+    <entry file="file://$PROJECT_DIR$/test/robot/UnlandedRobotExceptionUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="30" selection-end="30" vertical-scroll-proportion="0.056603774" vertical-offset="0" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/robot/LandSensorDefaillance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="29" selection-end="29" vertical-scroll-proportion="0.03773585" vertical-offset="0" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/robot/RoadBookCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="39" selection-start="1362" selection-end="1362" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+        <state line="16" column="1" selection-start="455" selection-end="455" vertical-scroll-proportion="0.8173077" vertical-offset="17" max-vertical-offset="391">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/robot/InsufficientChargeException.java">
+    <entry file="file://$PROJECT_DIR$/src/robot/UnlandedRobotException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="29" selection-end="29" vertical-scroll-proportion="0.03773585" vertical-offset="0" max-vertical-offset="901">
+        <state line="3" column="35" selection-start="30" selection-end="52" vertical-scroll-proportion="0.07680723" vertical-offset="0" max-vertical-offset="664">
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/robot/Robot.java">
+    <entry file="file://$PROJECT_DIR$/test/robot/BatteryUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="58" selection-start="2725" selection-end="2725" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1700">
+<<<<<<< HEAD
+        <state line="3" column="13" selection-start="30" selection-end="30" vertical-scroll-proportion="0.056603774" vertical-offset="0" max-vertical-offset="901">
+=======
+        <state line="43" column="5" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1071">
+          <folding>
+            <element signature="class#940:1009" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/robot/Battery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="27" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="952">
+          <folding>
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/robot/InaccessibleCoordinate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="1" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="374">
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/robot/LandSensorDefaillance.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="2" column="13" selection-start="29" selection-end="29" vertical-scroll-proportion="0.03773585" vertical-offset="0" max-vertical-offset="901">
+=======
+        <state line="2" column="13" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/robot/RoadBookCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="39" selection-start="1362" selection-end="1362" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+=======
+    <entry file="file://$PROJECT_DIR$/src/robot/LandSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="5" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/robot/LandSensorUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="9" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/robot/RobotUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="27" selection-start="3809" selection-end="3809" vertical-scroll-proportion="0.0" vertical-offset="1012" max-vertical-offset="1649">
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/robot/InsufficientChargeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="29" selection-end="29" vertical-scroll-proportion="0.03773585" vertical-offset="0" max-vertical-offset="901">
+=======
+    <entry file="file://$PROJECT_DIR$/src/robot/Land.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="23" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="578">
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/robot/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="58" selection-start="2725" selection-end="2725" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1700">
+          <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/src/robot/RoadBookCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="9" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="731">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#370#381#0" expanded="true" />
+          </folding>
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/robot/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="79" column="9" selection-start="3781" selection-end="3781" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="1564">
           <folding />
         </state>
@@ -1195,15 +1521,24 @@
     <entry file="file://$PROJECT_DIR$/test/robot/LandSensorUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+=======
+        <state line="66" column="32" selection-start="2412" selection-end="2412" vertical-scroll-proportion="0.44805196" vertical-offset="846" max-vertical-offset="1768">
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/robot/LandSensor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="47" selection-start="1332" selection-end="1332" vertical-scroll-proportion="0.75729644" vertical-offset="0" max-vertical-offset="782">
+=======
+    <entry file="file://$PROJECT_DIR$/test/robot/LandUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="6" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.72056514" vertical-offset="0" max-vertical-offset="637">
+>>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
           <folding />
         </state>
       </provider>
