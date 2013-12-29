@@ -10,6 +10,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="test" level="project" />
     <orderEntry type="library" name="Reymondet-Rigault" level="project" />
+    <orderEntry type="library" name="mockito" level="project" />
   </component>
 </module>
 

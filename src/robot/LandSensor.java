@@ -15,10 +15,11 @@ public class LandSensor {
         this.random = random;
     }
 
+    // methode possiblement fausse en elle même si coo pas juxtaposé, dans l'utilisation du programme c'est ok
     public double getPointToPointEnergyCoefficient(Coordinates coordinate1, Coordinates coordinate2) throws LandSensorDefaillance, InaccessibleCoordinate {
         if (carte.get(coordinate1)==null)
             try {
-                carte.put(coordinate1, Land.getLandByOrdinal(random.nextInt(Land.CountLand())));
+                carte.put(coordinate1, Land.getLandByOrdinal(random.nextInt(Land.CountLand()-1)));// le robot pouvait land sur un terrain infranchissable, pas de règle sur le déplacement depuis un terrain infranchissable, dans le doute on évite
             } catch (TerrainNonRepertorieException e) {
                 throw new LandSensorDefaillance();
             }
@@ -34,4 +35,8 @@ public class LandSensor {
         return (terrain1.coefficient+terrain2.coefficient)/2.0;
     }
 
+    /* un 'setters' pour éviter d'avoir a gérer l'utilisation des randoms avec mockito par exemple */
+    public void addCoordinates(Coordinates coordinate, Land land){
+        carte.put(coordinate, land);
+    }
 }
