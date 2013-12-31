@@ -5,6 +5,6 @@ import org.junit.Test;
 
 public class MapToolsUnitTest {
 
-    // testé en même temps que la classe robot
+    // testé en même temps que la class robot
 
 }

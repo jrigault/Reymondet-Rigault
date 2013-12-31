@@ -11,7 +11,7 @@ import java.util.TimerTask;
 public class BatteryUnitTest {
 
 
-    // méthode chargeFunction en privée sera testé dans timeToSufficientEnergy
+    // méthode chargeFunction en privée sera testé dans testCharge
 
     @Test
     public void testCharge(){
@@ -21,7 +21,7 @@ public class BatteryUnitTest {
     }
 
     // test la méthode use et setUp en même temps
-    @Test
+    @Test (expected = InsufficientChargeException.class)
     public void testSetUp() throws InsufficientChargeException {
         Battery battery = new Battery();
         Assert.assertEquals(100,battery.getChargeLevel(),0);
@@ -32,9 +32,9 @@ public class BatteryUnitTest {
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {
             @Override
-            public void run() {}}, 0, 1001);
-        Assert.assertEquals(60, battery.getChargeLevel(), 0); // marche pas tout le temps je sais pas pourquoi ? peut-être un problème avec le temps qui est pas parfait ?
-        // marche que pour une charge ? faut-il rappeler setUp a chaque fois?
+            public void run() {}}, 0, 1010);
+        Assert.assertEquals(60, battery.getChargeLevel(), 0); // bug de rare fois, à cause du Timer
+        battery.use(100);
     }
 
     @Test
@@ -55,9 +55,6 @@ public class BatteryUnitTest {
         Assert.assertTrue(battery.canDeliver(100));
         Assert.assertFalse(battery.canDeliver(110));
     }
-
-
-
 }
 
 

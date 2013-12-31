@@ -8,6 +8,9 @@ import static robot.Instruction.*;
 
 public class RoadBookCalculator {
 
+    // le calcul du trajet n'est pas optimisé selon la documentation :
+    // - le meilleur chemin n'est pas cherché => seul le plus court est cherché
+    // - le chemin n'évite pas les zones infranchissables
     static RoadBook calculateRoadBook(Direction direction, Coordinates position, Coordinates destination, ArrayList<Instruction> instructions) {
         List<Direction> directionList = new ArrayList<Direction>();
 

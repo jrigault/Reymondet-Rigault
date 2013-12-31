@@ -8,8 +8,9 @@ import java.util.List;
 import java.util.Random;
 public class RobotUnitTest {
 
-    // test les class suivantes : getYPosition, getXPosition, letsGo, moveBackward, setRoadBook, getDirection, moveTo, land
-    @Test
+    // test les class suivantes : getYPosition, getXPosition, letsGo, moveBackward, setRoadBook, getDirection, moveTo, land, (turnRight et moveForrward sont testé depuis le correctif de la class RoadBookCalculator)
+    // test également nextBackwardPosition
+    @Test (expected = UndefinedRoadbookException.class)
     public void testLetsGo() throws UnlandedRobotException, InsufficientChargeException, LandSensorDefaillance, UndefinedRoadbookException, InaccessibleCoordinate {
 
         LandSensor sensor = new LandSensor(new Random());
@@ -27,17 +28,22 @@ public class RobotUnitTest {
             Assert.assertEquals(5,robot.getXposition(),0);
             Assert.assertEquals(6,robot.getYposition(),0); // erreur de l'Assert : retourne 4 au lieu de 6 => mauvaise direction
             // erreur car la position initiale est : 5,5 direction north, et donc avec une instruction BACKWARD le robot devrait être en position 5,6
-            // erreur réctifié dans la class MapTools.java : méthode : nextForwardPosition et nextBackwardPosition
+            // erreur réctifié dans la class MapTools.java : méthodes : nextForwardPosition et nextBackwardPosition
         }
         catch(InaccessibleCoordinate e){
+            // le robot s'arrête lorsqu'il rencontre un terrain infranchissable à travers l'exception => il faudrai recalculé l'itinéraire dans cette exception afin d'arrivé au point final (ou le faire directement dans le roadBook serai plus optimisé)
             System.out.println("passage par des coordonnées invalides");
         }
 
+        // pour tester l'exception UndefinedRoadBookException
+        Robot robot2=new Robot();
+        robot2.letsGo();
     }
 
 
     // test computeRoadTo, turnLeft, moveForward
-    @Test
+    // test aussi les méthodes de la class MapTools et de RoadBookCalculator
+    @Test (expected = UnlandedRobotException.class)
     public void testComputeRoadTo() throws UnlandedRobotException, InsufficientChargeException, LandSensorDefaillance, UndefinedRoadbookException, InaccessibleCoordinate {
 
         LandSensor sensor = new LandSensor(new Random());
@@ -47,11 +53,11 @@ public class RobotUnitTest {
         Assert.assertEquals(Direction.NORTH,robot.getDirection());
         robot.computeRoadTo(new Coordinates(4,4));// erreur lors de l'appel a calculateRoadBook => StackOverflowError et donc il y a une boucle infinie
         // problème du au fait que la position SOUTH est appelée si on veut aller au NORTH et inversement => problème réctifié dans RoadBookCalculator
+
         // d'après la documentation le robot doit :
         // - Aller en avant => FORWARD
         // - Tourner sens inverse des aiguille d'une montre => TURNLEFT
         // - Aller en avant => FORWARD
-
         // on observe en placant un S.O.P. que le robot ce tourne vers EAST au lieu de WEST => problème d'optimisation qui ne correspond pas avec la documentation
         // problème d'optimisation rectifié dans RoadBookCalculator afin de correspondre à la documentation
         try{
@@ -64,6 +70,9 @@ public class RobotUnitTest {
             System.out.println("passage par des coordonnées invalides");
         }
 
+        // déclenche l'exception UnlandedRobotException
+        Robot robot2=new Robot();
+        robot2.computeRoadTo(coord);
     }
 
     // test l'énergie dans moveTo, turnRight

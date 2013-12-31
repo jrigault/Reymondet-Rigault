@@ -3,7 +3,7 @@ package robot;
 import static robot.Direction.*;
 
 public class MapTools {
-
+    // changement effectué => commentaire
     static Coordinates nextForwardPosition(Coordinates position, Direction direction) {
         if (direction == NORTH)
             return new Coordinates(position.getX(), position.getY() - 1); // + =>-

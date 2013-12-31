@@ -1,13 +1,8 @@
 <component name="libraryTable">
   <library name="Reymondet-Rigault">
     <CLASSES>
-<<<<<<< HEAD
-      <root url="jar://$PROJECT_DIR$/out/test/Reymondet-Rigault/hamcrest-core-1.3.jar!/" />
-      <root url="jar://$PROJECT_DIR$/out/test/Reymondet-Rigault/junit-4.11.jar!/" />
-=======
       <root url="jar://$PROJECT_DIR$/out/test/Reymondet-Rigault/junit-4.11.jar!/" />
       <root url="jar://$PROJECT_DIR$/out/test/Reymondet-Rigault/hamcrest-core-1.3.jar!/" />
->>>>>>> d82a5f40616deb0d4db61b9d098e8c84005a54e5
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -15,11 +15,15 @@ public class LandSensor {
         this.random = random;
     }
 
-    // methode possiblement fausse en elle même si coo pas juxtaposé, dans l'utilisation du programme c'est ok
+    // methode possiblement fausse en elle même si coordonnées pas juxtaposées, dans l'utilisation du programme c'est ok car on appel la méthode que avec des coordonnées juxtaposées
     public double getPointToPointEnergyCoefficient(Coordinates coordinate1, Coordinates coordinate2) throws LandSensorDefaillance, InaccessibleCoordinate {
+        // gère si les 2 positions sont les mêmes (du sur place)
+        if(coordinate1==coordinate2){
+            return 0;
+        }
         if (carte.get(coordinate1)==null)
             try {
-                carte.put(coordinate1, Land.getLandByOrdinal(random.nextInt(Land.CountLand()-1)));// le robot pouvait land sur un terrain infranchissable, pas de règle sur le déplacement depuis un terrain infranchissable, dans le doute on évite
+                carte.put(coordinate1, Land.getLandByOrdinal(random.nextInt(Land.CountLand()-1)));// le robot pouvait se généré sur un terrain infranchissable, pas de règle sur le déplacement depuis un terrain infranchissable, dans le doute on évite
             } catch (TerrainNonRepertorieException e) {
                 throw new LandSensorDefaillance();
             }

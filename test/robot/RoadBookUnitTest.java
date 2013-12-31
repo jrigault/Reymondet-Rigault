@@ -22,15 +22,13 @@ public class RoadBookUnitTest {
         Assert.assertFalse(book2.hasInstruction());
     }
 
-
     @Test
     public void testNext(){
         List instructions = new ArrayList<Instruction>();
         instructions.add(Instruction.TURNLEFT);
         instructions.add(Instruction.FORWARD);
         RoadBook book= new RoadBook(instructions);
-        Assert.assertEquals(book.next(),Instruction.TURNLEFT);
-        Assert.assertEquals(book.next(),Instruction.FORWARD);
+        Assert.assertEquals(Instruction.TURNLEFT,book.next());
+        Assert.assertEquals(Instruction.FORWARD,book.next());
     }
-
 }
